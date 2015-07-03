@@ -1,0 +1,10 @@
+html{
+  background:url("landingpage_backg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+  background-size: cover;
+}
+p{
+  padding-right: 750px;
+}
