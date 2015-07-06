@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300">
-    <style>
-      body {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-      }
-    </style>
-  </head>
+
+<head>
+  <link href="main.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:100">
+  <title>Luke Lechel's Website</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+  <p><a href="index.html">Home</a> // <a href="intro.html">Intro</a> // <a href="quotes.html">Quotes</a> // <a href="legal.html">Legal</a> // <a href="contact.html">Contact</a></p>
+</head>
+
   <body>
-    <h3>G'day mate, my name is Luke.</h3>
-    <form>
-      Name: <input type="text" name="name">
+    <h2>G'day mate, my name is Luke.</h2>
+    <form method="post" action="mailto:lukelechel@gmail.com">
+      Name: <br><input type="text" name="name" size="30">
       <br>
-      Email: <input type="text" name="email">
+      Email: <br><input type="text" name="email" size="30">
       <br>
+      Message: <br><textarea name="comment" rows="8" cols="40"></textarea>
       <br>
       <input type="submit" value="Submit">
     </form>
+    <br>
+    <img src="https://dl.dropboxusercontent.com/u/64395293/GIFs/Greeting/Other_SurfGuyCarWave.gif">
+    <p>^ I'm very glad you've come to submit this form. :D</p>
   </body>
+
+  <footer>
+    <br>
+    <hr>
+    <br>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+  </footer>
+
 </html>
