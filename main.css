@@ -1,10 +1,66 @@
-html{
+html {
   background:url("landingpage_backg.png");
   background-repeat: no-repeat;
   background-position: cent;
   min-height: 100%;
   background-size: cover;
+  padding-right: 25%;
+  padding-left: 25%;
 }
-a{
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+body h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+body h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
   color: #ffffff;
+}
+
+.SocialLinks li {
+  font-weight: bold;
+  line-height: 200%;
+  list-style: none;
+  display: block;
+  text-align: center;
+  margin-right: 35px;
+}
+
+.nav li {
+  display: inline;
+  margin: 5px;
+  text-align: left;
+}
+
+.bodytext li {
+  list-style: upper-roman;
+  margin-right: 35px;
+  padding-left: 0%;
+  padding-right: 0%;
+  line-height: 205%;
+  text-align: left;
+}
+
+.pagecontent p {
+  color: red;
+}
+
+.favquotes li {
+  line-height: 200%;
+  list-style: none;
+  display: block;
+  text-align: center;
+  margin-right: 35px;
 }
