@@ -32,11 +32,10 @@ a {
 
 .SocialLinks li {
   font-weight: bold;
-  line-height: 200%;
   list-style: none;
-  display: block;
   text-align: center;
   margin-right: 35px;
+  display: inline;
 }
 
 .nav li {
