@@ -38,6 +38,10 @@ a {
   display: inline;
 }
 
+.nav ul {
+  padding-left: 0;
+}
+
 .nav li {
   display: inline;
   margin: 5px;
