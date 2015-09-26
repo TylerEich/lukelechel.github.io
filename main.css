@@ -17,13 +17,14 @@ body {
 }
 
 body h1 {
-  font-size: 32px;
+  font-size: 64px;
   font-weight: normal;
   line-height: 50%;
 }
 
 body h2 {
-  font-size: 22px;
+  font-size: 33px;
+  font-weight: lighter;
 }
 
 a {
@@ -55,6 +56,11 @@ a {
   padding-right: 0%;
   line-height: 205%;
   text-align: left;
+}
+
+.open {
+  padding-top: 20%;
+  padding-bottom: 30%;
 }
 
 .pagecontent p {
