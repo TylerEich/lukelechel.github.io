@@ -52,7 +52,7 @@ a {
 }
 
 .nav h3 {
-  border: 2px #4d4d4f solid;
+  border: 2px #007858 solid;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -68,7 +68,7 @@ a {
 
 .nav a {
   text-decoration: none;
-  color: #01a67e;
+  color: white;
 }
 
 .bodytext li {
