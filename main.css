@@ -37,7 +37,6 @@ a {
 
 #floatactbar {
   position: fixed;
-  background-color: #211f20;
   top: 0;
   left: 0;
   width: 100%;
@@ -52,7 +51,7 @@ a {
 }
 
 .nav h3 {
-  border: 2px #007858 solid;
+  border: 2px #00ad7d solid;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -86,5 +85,5 @@ a {
 }
 
 .coastHouseTextContent {
-  
+
 }
