@@ -32,7 +32,7 @@ a {
 }
 
 #content {
-  margin-top: 110px;
+  margin-top: 90px;
 }
 
 #floatactbar {
@@ -40,6 +40,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+  text-shadow: -1px 1px 4px #4d4d4f;
 }
 
 .SocialLinks li {
@@ -52,6 +53,7 @@ a {
 
 .nav h3 {
   border: 2px #00ad7d solid;
+  text-shadow: -1px 1px 4px #4d4d4f;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
