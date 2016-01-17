@@ -5,8 +5,8 @@ html {
   -o-background-size: cover;
   background-size: cover;
   min-height: 100%;
-  padding-right: 25%;
-  padding-left: 25%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 body {
@@ -28,19 +28,11 @@ body h2 {
 }
 
 a {
-  color: #ffffff;
+  color: white;
 }
 
-#content {
-  margin-top: 90px;
-}
-
-#floatactbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-shadow: -1px 1px 4px #4d4d4f;
+.content {
+  margin-top: -2%;
 }
 
 .SocialLinks li {
@@ -52,24 +44,22 @@ a {
 }
 
 .nav h3 {
-  border: 2px #00ad7d solid;
-  text-shadow: -1px 1px 4px #4d4d4f;
+  text-shadow: -1px 1px 12px #4d4d4f;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .nav li {
   display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
   list-style: none;
 }
 
 .nav a {
   text-decoration: none;
-  color: white;
 }
 
 .bodytext li {
@@ -82,10 +72,6 @@ a {
 }
 
 .open {
-  padding-top: 5%;
+  padding-top: 12%;
   padding-bottom: 20%;
-}
-
-.coastHouseTextContent {
-
 }
