@@ -18,21 +18,29 @@ body {
 
 body p {
   text-shadow: -1px 1px 30px #4d4d4f;
+    font-size: 20px;
 }
 
 body h1 {
   font-size: 64px;
   font-weight: normal;
   line-height: 50%;
+  text-shadow: -1px 1px 30px #4d4d4f;
 }
 
 body h2 {
   font-size: 33px;
   font-weight: bolder;
+  text-shadow: -1px 1px 22px #4d4d4f
 }
 
 a {
   color: white;
+}
+
+p a {
+  border-bottom: 1px dotted white;
+  text-decoration: none;
 }
 
 .content {
@@ -53,8 +61,7 @@ a {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: -2%;
 }
 
 .nav li {
@@ -64,6 +71,7 @@ a {
 
 .nav a {
   text-decoration: none;
+  border-bottom: 0px;
 }
 
 .bodytext li {
@@ -74,9 +82,4 @@ a {
   line-height: 205%;
   text-align: left;
   text-shadow: -1px 1px 30px #4d4d4f;
-}
-
-.open {
-  padding-top: 10%;
-  padding-bottom: 20%;
 }
