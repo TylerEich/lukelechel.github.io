@@ -11,40 +11,46 @@
     <meta name="author" content="Luke Lechel" />
     <meta name="description" content="Luke Lechel is a web-surfing teen with Gold Coast dreams." />
     <a hreflang="en"></a>
-    <link href="main.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400" />
-    <title>Luke Lechel</title>
+    <title>Luke Was Right</title>
+
+    <style>
+    html {
+      min-height: 100%;
+      padding-right: 5%;
+      padding-left: 5%;
+      padding-top: 10%;
+    }
+
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 125px;
+    }
+    </style>
+
+    <script language="javascript1.2">
+      colors = new Array("red","orange","yellow","green","blue","purple","white","black")
+
+      colorIndex = 0
+
+      function changeColor() {
+        document.bgColor = colors[colorIndex]
+        colorIndex = (colorIndex + 1) % colors.length
+      }
+
+      function startColorChange() {
+        setInterval("changeColor()",50)
+      }
+
+      window.onload = startColorChange
+
+    </script>
   </head>
 
-    <body>
-
-      <style>
-      .text {
-        padding-top: 15%;
-        display: inline-block;
-      }
-      p {
-        font-size: 21px;
-        font-weight: bold;
-        text-shadow: -1px 1px 22px #4d4d4f;
-        padding-top: 23%;
-      }
-      </style>
-
-      <div class="nav">
-        <ul style="margin-right: 5%">
-          <li><a href="index.html"><h3>HOME</a></h3></li>
-          <li><a href="intro.html"><h3>INTRO</a></h3></li>
-          <li><a href="http://www.lukelechel.com/maybeventi.github.io"><h3>MAYBE VENTI</h3></li>
-          <li><a href="connected.html"><h3>CONNECTED</a></h3></li>
-        </ul>
-      </div>
-
-      <div class=text>
-        <h1>Hi, I'm Luke Lechel</h1>
-        <h2>Web-surfing teen with Gold Coast dreams.</h2>
-      </div>
-
+  <body>
+    <h1>luke was right</h1>
   </body>
 
 </html>
