@@ -4,8 +4,6 @@ html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-height: 100%;
-  min-width: 100%;
   padding-right: 15%;
   padding-left: 15%;
 }
