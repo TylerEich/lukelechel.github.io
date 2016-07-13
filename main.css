@@ -31,6 +31,14 @@ html {
   text-align: center;
 }
 
+.massImage {
+  width: 100%;
+  max-width: 500em;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
 .textContent {
   padding-left: 10%;
   padding-right: 10%;
